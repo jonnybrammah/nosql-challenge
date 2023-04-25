@@ -66,5 +66,4 @@ This was answered by querying for a Rating of exactly 5 within 0.1 degrees of bo
 
 To answer this question, an aggregation pipeline was written to find establishments with a hygiene score of zero, which were then grouped by their Local Authority and the count then sorted in descending order. The results show that the Local Authority with the greatest number of establishments that scored zero for hygiene is Thanet (1130), followed by Greenwich (882) and then Maidstone (713). 
 Several local authorities had no establishments scoring zero on their hygiene score, including Sunderland, Broxboure, Reading and Kensington & Chelsea. This is all shown on the graph below:
-
 ![Number of Restaurants with Hygiene Score of 0 by Local Authority](https://raw.githubusercontent.com/jonnybrammah/nosql-challenge/main/Output/Hygiene_0_establishments.png)
