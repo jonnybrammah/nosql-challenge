@@ -32,7 +32,7 @@ The questions to be answered during the analysis of the data were: </br>
 
 <b>1. Which establishments have a hygiene score equal to 20?</b> </br>
         This was answered by writing a query to return any establishment where the Hygiene score was exactly 20, and returned a list of 41 business, which can be vieweed here:</br>
-        <i> The Chase Rest Home, Brenalwood, Melrose Hotel, Seaford Pizza, Golden Palace,
+        - <i> The Chase Rest Home, Brenalwood, Melrose Hotel, Seaford Pizza, Golden Palace,
         Ashby's Butchers, South Sea Express Cuisine, Golden Palace, The Tulip Tree, F & S,
         Longhouse, Westview Playgroup Based At Downsview Comm Primary, Whatever The Weather Coffee, Kings Restaurant (Oriental), Xich Lo,
         Asian Supermarket Ltd: T/A Best Food Wine Ltd, Londis, Costcutter, La Simon Ltd, Caribiscus Ltd,
@@ -43,7 +43,7 @@ The questions to be answered during the analysis of the data were: </br>
         
 <b>2. Which establishments in the City of London Authority have an overall rating of 4 or above?</b> </br>
         This was answered by querying to return any establishment that contained "London" in the Local Authority field, and had a rating value of 4 or above. This retured the following restaurants:</br>
-        <i> Charlie's, Mv City Cruises Erasmus, Benfleet Motor Yacht Club, Coombs Catering t/a, The Lock and Key,
+        - <i> Charlie's, Mv City Cruises Erasmus, Benfleet Motor Yacht Club, Coombs Catering t/a, The Lock and Key,
         Tilbury Seafarers Centre, Mv Valulla, Tereza Joanne, Brick Lane Brews, The Nuance Group (UK) Limited,
         WH Smith, City Bar & Grill, Jet Centre, Caffè Nero, Mv Sunborn Yacht Hotel,
         Good Hotel London, La Nonna lina, Wake Up Docklands Limited, MV Venus Clipper, MV Typhoon clipper,
@@ -53,10 +53,10 @@ The questions to be answered during the analysis of the data were: </br>
 
 <b>3. What are the top 5 establishments with a RatingValue of 5 nearest to the new restaurant added during data cleaning?</b></br>
         This was answered by querying for a Rating of exactly 5 within 0.1 degrees of both the latitude and longitude of our new Penang Flavours restaurant. The returned list of establishments can be seen here:
-        <i> - Fineway Cash & Carry
-        - Premier Express
-        - The Plumstead Pantry
-        - Everest Stores Ltd
-        - TIWA N TIWA African Restaurant Ltd </i>
+        - <i>Fineway Cash & Carry</i>
+        - <i>Premier Express</i>
+        - <i>The Plumstead Pantry</i>
+        - <i>Everest Stores Ltd</i>
+        - <i>TIWA N TIWA African Restaurant Ltd </i>
 
 4. How many establishments in each Local Authority area have a hygiene score of 0? 
