@@ -1,6 +1,7 @@
 # nosql-challenge
-
-![Food Standards Agency Food Hygiene Rating](https://www.foodsafetynews.com/files/2019/04/dreamstime_food-hygiene-rating-scheme-fsa.jpg)
+<p align="center">
+<img width="500" height="300" src="https://www.foodsafetynews.com/files/2019/04/dreamstime_food-hygiene-rating-scheme-fsa.jpg">
+</p>
 
 ## Project Description
 
@@ -15,9 +16,11 @@ The goal of this project was to evaluate some of the UK Food Standards Agency ra
 
 ### Data Cleaning
 
-![Penang Flavours Logo](https://github.com/jonnybrammah/nosql-challenge/blob/main/Resources/Penang%20Flavours.png)
+<p align="center">
+<img width="300" height="100" src="https://github.com/jonnybrammah/nosql-challenge/blob/main/Resources/Penang%20Flavours.png">
+</p>
 
-A new restaurant, Penang Flavours, was added to the collection, and then updated using the BusinessTypeID used by the data base. 
+A new restaurant, Penang Flavours, was added to the collection, and then updated using the BusinessTypeID used by the data base. This restaurant was required for a future magazine article.
 
 -----
 
