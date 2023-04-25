@@ -31,32 +31,40 @@ Some data stored in the dataframe was not in the correct datatype, so latitude a
 The questions to be answered during the analysis of the data were: </br>
 
 <b>1. Which establishments have a hygiene score equal to 20?</b> </br>
-        This was answered by writing a query to return any establishment where the Hygiene score was exactly 20, and returned a list of 41 business, which can be vieweed here:</br>
-        - *The Chase Rest Home, Brenalwood, Melrose Hotel, Seaford Pizza, Golden Palace,
-        Ashby's Butchers, South Sea Express Cuisine, Golden Palace, The Tulip Tree, F & S,
-        Longhouse, Westview Playgroup Based At Downsview Comm Primary, Whatever The Weather Coffee, Kings Restaurant (Oriental), Xich Lo,
-        Asian Supermarket Ltd: T/A Best Food Wine Ltd, Londis, Costcutter, La Simon Ltd, Caribiscus Ltd,
-        Kennedy Fried Chicken, Gah Shing, A1 News & Wine, Cakes & Bakes, Sahajanand Catering Limited, Sisko Cafe,
-        Magazin Romanesc Diana, Bali Maamalas, Angels Bakery, Nikkis Place Restaurant, Chicago 30,
-        Samui Thai Restaurant, Pakhtoonkhwa Restaurant, New Happy Garden, Mummy Yum, Gospodina,
-        Leo's Bar & Grill,  Royal Ribs, Great Hallingbury Manor Hotel, The Dog And Duck, Oriental Cottage* </br>
+
+This was answered by writing a query to return any establishment where the Hygiene score was exactly 20, and returned a list of 41 business, which can be viewed here:</br>
+- *The Chase Rest Home, Brenalwood, Melrose Hotel, Seaford Pizza, Golden Palace,
+Ashby's Butchers, South Sea Express Cuisine, Golden Palace, The Tulip Tree, F & S,
+Longhouse, Westview Playgroup Based At Downsview Comm Primary, Whatever The Weather Coffee, Kings Restaurant (Oriental), Xich Lo,
+Asian Supermarket Ltd: T/A Best Food Wine Ltd, Londis, Costcutter, La Simon Ltd, Caribiscus Ltd,
+Kennedy Fried Chicken, Gah Shing, A1 News & Wine, Cakes & Bakes, Sahajanand Catering Limited, Sisko Cafe,
+Magazin Romanesc Diana, Bali Maamalas, Angels Bakery, Nikkis Place Restaurant, Chicago 30,
+Samui Thai Restaurant, Pakhtoonkhwa Restaurant, New Happy Garden, Mummy Yum, Gospodina,
+Leo's Bar & Grill,  Royal Ribs, Great Hallingbury Manor Hotel, The Dog And Duck, Oriental Cottage* </br>
         
 <b>2. Which establishments in the City of London Authority have an overall rating of 4 or above?</b> </br>
-        This was answered by querying to return any establishment that contained "London" in the Local Authority field, and had a rating value of 4 or above. This retured the following restaurants:</br>
-        - <i> Charlie's, Mv City Cruises Erasmus, Benfleet Motor Yacht Club, Coombs Catering t/a, The Lock and Key,
-        Tilbury Seafarers Centre, Mv Valulla, Tereza Joanne, Brick Lane Brews, The Nuance Group (UK) Limited,
-        WH Smith, City Bar & Grill, Jet Centre, Caffè Nero, Mv Sunborn Yacht Hotel,
-        Good Hotel London, La Nonna lina, Wake Up Docklands Limited, MV Venus Clipper, MV Typhoon clipper,
-        MV Moon clipper, MV Jupiter clipper, MV Monsoon clipper, MV Tornado clipper, MV Meteor clipper, 
-        MV Mercury clipper, MV Cyclone clipper, MV Galaxy clipper, MV Sun clipper, MV Hurricane clipper,
-        Mv Storm Clipper, MV Neptune clipper, MV Aurora clipper, Canary Wharf 1V </i></br>
+
+This was answered by querying to return any establishment that contained "London" in the Local Authority field, and had a rating value of 4 or above. This retured the following restaurants:</br>
+- <i> Charlie's, Mv City Cruises Erasmus, Benfleet Motor Yacht Club, Coombs Catering t/a, The Lock and Key,
+Tilbury Seafarers Centre, Mv Valulla, Tereza Joanne, Brick Lane Brews, The Nuance Group (UK) Limited,
+WH Smith, City Bar & Grill, Jet Centre, Caffè Nero, Mv Sunborn Yacht Hotel,
+Good Hotel London, La Nonna lina, Wake Up Docklands Limited, MV Venus Clipper, MV Typhoon clipper,
+MV Moon clipper, MV Jupiter clipper, MV Monsoon clipper, MV Tornado clipper, MV Meteor clipper, 
+MV Mercury clipper, MV Cyclone clipper, MV Galaxy clipper, MV Sun clipper, MV Hurricane clipper,
+Mv Storm Clipper, MV Neptune clipper, MV Aurora clipper, Canary Wharf 1V </i></br>
 
 <b>3. What are the top 5 establishments with a RatingValue of 5 nearest to the new restaurant added during data cleaning?</b></br>
-        This was answered by querying for a Rating of exactly 5 within 0.1 degrees of both the latitude and longitude of our new Penang Flavours restaurant. The returned list of establishments can be seen here:
-        -*Fineway Cash & Carry*
-        - <i>Premier Express</i>
-        - <i>The Plumstead Pantry</i>
-        - <i>Everest Stores Ltd</i>
-        - <i>TIWA N TIWA African Restaurant Ltd </i>
 
-4. How many establishments in each Local Authority area have a hygiene score of 0? 
+This was answered by querying for a Rating of exactly 5 within 0.1 degrees of both the latitude and longitude of our new Penang Flavours restaurant. The returned list of establishments can be seen here:
+- *Fineway Cash & Carry*
+- <i>Premier Express</i>
+- <i>The Plumstead Pantry</i>
+- <i>Everest Stores Ltd</i>
+- <i>TIWA N TIWA African Restaurant Ltd </i>
+
+<b>4. How many establishments in each Local Authority area have a hygiene score of 0?</b> </br>
+
+To answer this question, an aggregation pipeline was written to find establishments with a hygiene score of zero, which were then grouped by their Local Authority and the count then sorted in descending order. The results show that the Local Authority with the greatest number of establishments that scored zero for hygiene is Thanet (1130), followed by Greenwich (882) and then Maidstone (713). 
+Several local authorities had no establishments scoring zero on their hygiene score, including Sunderland, Broxboure, Reading and Kensington & Chelsea. This is all shown on the graph below:
+
+![Number of Restaurants with Hygiene Score of 0 by Local Authority](https://raw.githubusercontent.com/jonnybrammah/nosql-challenge/main/Output/Hygiene_0_establishments.png)
