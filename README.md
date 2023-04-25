@@ -29,6 +29,7 @@ Some data stored in the dataframe was not in the correct datatype, so latitude a
 ### Data Analysis
 
 The questions to be answered during the analysis of the data were: </br>
+
 <b>1. Which establishments have a hygiene score equal to 20?</b> </br>
         This was answered by writing a query to return any establishment where the Hygiene score was exactly 20, and returned a list of 41 business, which can be vieweed here:</br>
         <i> The Chase Rest Home, Brenalwood, Melrose Hotel, Seaford Pizza, Golden Palace,
@@ -39,6 +40,18 @@ The questions to be answered during the analysis of the data were: </br>
         Magazin Romanesc Diana, Bali Maamalas, Angels Bakery, Nikkis Place Restaurant, Chicago 30,
         Samui Thai Restaurant, Pakhtoonkhwa Restaurant, New Happy Garden, Mummy Yum, Gospodina,
         Leo's Bar & Grill,  Royal Ribs, Great Hallingbury Manor Hotel, The Dog And Duck, Oriental Cottage </i></br>
-2. Which establishments in the City of London Authority have an overall rating of 4 or above?
-3. What are the top 5 establishments with a RatingValue of 5 nearest to the new restaurant added during data cleaning?
+        
+<b>2. Which establishments in the City of London Authority have an overall rating of 4 or above?</b> </br>
+        This was answered by querying to return any establishment that contained "London" in the Local Authority field, and had a rating value of 4 or above. This retured the following restaurants:</br>
+        <i> Charlie's, Mv City Cruises Erasmus, Benfleet Motor Yacht Club, Coombs Catering t/a, The Lock and Key,
+        Tilbury Seafarers Centre, Mv Valulla, Tereza Joanne, Brick Lane Brews, The Nuance Group (UK) Limited,
+        WH Smith, City Bar & Grill, Jet Centre, Caffè Nero, Mv Sunborn Yacht Hotel,
+        Good Hotel London, La Nonna lina, Wake Up Docklands Limited, MV Venus Clipper, MV Typhoon clipper,
+        MV Moon clipper, MV Jupiter clipper, MV Monsoon clipper, MV Tornado clipper, MV Meteor clipper, 
+        MV Mercury clipper, MV Cyclone clipper, MV Galaxy clipper, MV Sun clipper, MV Hurricane clipper,
+        Mv Storm Clipper, MV Neptune clipper, MV Aurora clipper, Canary Wharf 1V </i></br>
+
+<b>3. What are the top 5 establishments with a RatingValue of 5 nearest to the new restaurant added during data cleaning?</b></br>
+        
+
 4. How many establishments in each Local Authority area have a hygiene score of 0? 
