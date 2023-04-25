@@ -1,6 +1,6 @@
 # nosql-challenge
 <p align="center">
-<img width="400" height="300" src="https://www.foodsafetynews.com/files/2019/04/dreamstime_food-hygiene-rating-scheme-fsa.jpg">
+<img width="450" height="300" src="https://www.foodsafetynews.com/files/2019/04/dreamstime_food-hygiene-rating-scheme-fsa.jpg">
 </p>
 
 ## Project Description
@@ -52,6 +52,11 @@ The questions to be answered during the analysis of the data were: </br>
         Mv Storm Clipper, MV Neptune clipper, MV Aurora clipper, Canary Wharf 1V </i></br>
 
 <b>3. What are the top 5 establishments with a RatingValue of 5 nearest to the new restaurant added during data cleaning?</b></br>
-        
+        This was answered by querying for a Rating of exactly 5 within 0.1 degrees of both the latitude and longitude of our new Penang Flavours restaurant. The returned list of establishments can be seen here:
+        <i> - Fineway Cash & Carry
+        - Premier Express
+        - The Plumstead Pantry
+        - Everest Stores Ltd
+        - TIWA N TIWA African Restaurant Ltd </i>
 
 4. How many establishments in each Local Authority area have a hygiene score of 0? 
