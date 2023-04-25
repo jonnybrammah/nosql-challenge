@@ -30,7 +30,7 @@ Some data stored in the dataframe was not in the correct datatype, so latitude a
 
 The questions to be answered during the analysis of the data were: </br>
 <b>1. Which establishments have a hygiene score equal to 20?</b> </br>
-    This was answered by writing a query to return any establishment where the Hygiene score was exactly 20, and returned a list of 41 business, which can be vieweed here:</br>
+        This was answered by writing a query to return any establishment where the Hygiene score was exactly 20, and returned a list of 41 business, which can be vieweed here:</br>
         <i> The Chase Rest Home, Brenalwood, Melrose Hotel, Seaford Pizza, Golden Palace,
         Ashby's Butchers, South Sea Express Cuisine, Golden Palace, The Tulip Tree, F & S,
         Longhouse, Westview Playgroup Based At Downsview Comm Primary, Whatever The Weather Coffee, Kings Restaurant (Oriental), Xich Lo,
