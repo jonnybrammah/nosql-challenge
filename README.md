@@ -10,8 +10,8 @@ The goal of this project was to evaluate some of the UK Food Standards Agency ra
 -----
 
 ### Table of Contents
-- 1. [Data Cleaning](https://github.com/jonnybrammah/nosql-challenge/blob/main/README.md#data-cleaning)
-- 2. [Data Analysis](https://github.com/jonnybrammah/nosql-challenge/blob/main/README.md#data-analysis)
+1. [<b>Data Cleaning</b>](https://github.com/jonnybrammah/nosql-challenge/blob/main/README.md#data-cleaning)
+2. [<b>Data Analysis</b>](https://github.com/jonnybrammah/nosql-challenge/blob/main/README.md#data-analysis)
 -----
 
 ### Data Cleaning
@@ -27,3 +27,9 @@ Some data stored in the dataframe was not in the correct datatype, so latitude a
 -----
 
 ### Data Analysis
+
+The questions to be answered during the analysis of the data were:
+1. Which establishments have a hygiene score equal to 20?
+2. Which establishments in the City of London Authority have an overall rating of 4 or above?
+3. What are the top 5 establishments with a RatingValue of 5 nearest to the new restaurant added during data cleaning?
+4. How many establishments in each Local Authority area have a hygiene score of 0? 
