@@ -31,15 +31,14 @@ Some data stored in the dataframe was not in the correct datatype, so latitude a
 The questions to be answered during the analysis of the data were: </br>
 <b>1. Which establishments have a hygiene score equal to 20?</b> </br>
     This was answered by writing a query to return any establishment where the Hygiene score was exactly 20, and returned a list of 41 business, which can be vieweed here:</br>
-      <i> The Chase Rest Home, Brenalwood, Melrose Hotel, Seaford Pizza, Golden Palace,
-      Ashby's Butchers, South Sea Express Cuisine, Golden Palace, The Tulip Tree, F & S,
-      Longhouse, Westview Playgroup Based At Downsview Comm Primary, Whatever The Weather Coffee, Kings Restaurant (Oriental), Xich Lo,
-      Asian Supermarket Ltd: T/A Best Food Wine Ltd, Londis, Costcutter, La Simon Ltd, Caribiscus Ltd,
-      Kennedy Fried Chicken, Gah Shing, A1 News & Wine, Cakes & Bakes, Sahajanand Catering Limited, Sisko Cafe,
-      Magazin Romanesc Diana, Bali Maamalas, Angels Bakery, Nikkis Place Restaurant, Chicago 30,
-      Samui Thai Restaurant, Pakhtoonkhwa Restaurant, New Happy Garden, Mummy Yum, Gospodina,
-      Leo's Bar & Grill,  Royal Ribs, Great Hallingbury Manor Hotel, The Dog And Duck, Oriental Cottage
-      </i>
+        <i> The Chase Rest Home, Brenalwood, Melrose Hotel, Seaford Pizza, Golden Palace,
+        Ashby's Butchers, South Sea Express Cuisine, Golden Palace, The Tulip Tree, F & S,
+        Longhouse, Westview Playgroup Based At Downsview Comm Primary, Whatever The Weather Coffee, Kings Restaurant (Oriental), Xich Lo,
+        Asian Supermarket Ltd: T/A Best Food Wine Ltd, Londis, Costcutter, La Simon Ltd, Caribiscus Ltd,
+        Kennedy Fried Chicken, Gah Shing, A1 News & Wine, Cakes & Bakes, Sahajanand Catering Limited, Sisko Cafe,
+        Magazin Romanesc Diana, Bali Maamalas, Angels Bakery, Nikkis Place Restaurant, Chicago 30,
+        Samui Thai Restaurant, Pakhtoonkhwa Restaurant, New Happy Garden, Mummy Yum, Gospodina,
+        Leo's Bar & Grill,  Royal Ribs, Great Hallingbury Manor Hotel, The Dog And Duck, Oriental Cottage </i></br>
 2. Which establishments in the City of London Authority have an overall rating of 4 or above?
 3. What are the top 5 establishments with a RatingValue of 5 nearest to the new restaurant added during data cleaning?
 4. How many establishments in each Local Authority area have a hygiene score of 0? 
