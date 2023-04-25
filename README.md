@@ -1,6 +1,6 @@
 # nosql-challenge
 <p align="center">
-<img width="500" height="300" src="https://www.foodsafetynews.com/files/2019/04/dreamstime_food-hygiene-rating-scheme-fsa.jpg">
+<img width="400" height="300" src="https://www.foodsafetynews.com/files/2019/04/dreamstime_food-hygiene-rating-scheme-fsa.jpg">
 </p>
 
 ## Project Description
@@ -21,6 +21,8 @@ The goal of this project was to evaluate some of the UK Food Standards Agency ra
 </p>
 
 A new restaurant, Penang Flavours, was added to the collection, and then updated using the BusinessTypeID used by the data base. This restaurant was required for a future magazine article.
+
+Some data stored in the dataframe was not in the correct datatype, so latitude and longitude were both converted to decimals, and the overall Rating of the resaturant was converted to an integer.
 
 -----
 
