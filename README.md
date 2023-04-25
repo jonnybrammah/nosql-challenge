@@ -32,14 +32,14 @@ The questions to be answered during the analysis of the data were: </br>
 
 <b>1. Which establishments have a hygiene score equal to 20?</b> </br>
         This was answered by writing a query to return any establishment where the Hygiene score was exactly 20, and returned a list of 41 business, which can be vieweed here:</br>
-        - <i> The Chase Rest Home, Brenalwood, Melrose Hotel, Seaford Pizza, Golden Palace,
+        - *The Chase Rest Home, Brenalwood, Melrose Hotel, Seaford Pizza, Golden Palace,
         Ashby's Butchers, South Sea Express Cuisine, Golden Palace, The Tulip Tree, F & S,
         Longhouse, Westview Playgroup Based At Downsview Comm Primary, Whatever The Weather Coffee, Kings Restaurant (Oriental), Xich Lo,
         Asian Supermarket Ltd: T/A Best Food Wine Ltd, Londis, Costcutter, La Simon Ltd, Caribiscus Ltd,
         Kennedy Fried Chicken, Gah Shing, A1 News & Wine, Cakes & Bakes, Sahajanand Catering Limited, Sisko Cafe,
         Magazin Romanesc Diana, Bali Maamalas, Angels Bakery, Nikkis Place Restaurant, Chicago 30,
         Samui Thai Restaurant, Pakhtoonkhwa Restaurant, New Happy Garden, Mummy Yum, Gospodina,
-        Leo's Bar & Grill,  Royal Ribs, Great Hallingbury Manor Hotel, The Dog And Duck, Oriental Cottage </i></br>
+        Leo's Bar & Grill,  Royal Ribs, Great Hallingbury Manor Hotel, The Dog And Duck, Oriental Cottage* </br>
         
 <b>2. Which establishments in the City of London Authority have an overall rating of 4 or above?</b> </br>
         This was answered by querying to return any establishment that contained "London" in the Local Authority field, and had a rating value of 4 or above. This retured the following restaurants:</br>
@@ -53,7 +53,7 @@ The questions to be answered during the analysis of the data were: </br>
 
 <b>3. What are the top 5 establishments with a RatingValue of 5 nearest to the new restaurant added during data cleaning?</b></br>
         This was answered by querying for a Rating of exactly 5 within 0.1 degrees of both the latitude and longitude of our new Penang Flavours restaurant. The returned list of establishments can be seen here:
-        - <i>Fineway Cash & Carry</i>
+        -*Fineway Cash & Carry*
         - <i>Premier Express</i>
         - <i>The Plumstead Pantry</i>
         - <i>Everest Stores Ltd</i>
